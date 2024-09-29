@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+.logo-1 {
+    width: 150px;
+    cursor: pointer;
+}
+.user {
+    cursor: pointer;
+    font-size: 30px;
+}
+.basket {
+    font-size: 30px;
+    cursor: pointer;
+}
+.nav-right {
+    padding: 1.2rem 0rem;
+}
+.btn-1:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    font-weight: bolder;
+    color: black;
+}
+ .btn-2{
+    background-color: #fb2b83;
+    color: white;
+}
+.btn-2:hover {
+    cursor: pointer;
+    background-color: #e22071;
+    font-weight: bolder;
+}
+.btn-3  {
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+.btn-3:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+.user , .logo-1 {
+    display: none;
+}
+.btn-4 {
+    background-color: #fb2b83;
+    color: white;
+}
+.btn-4:hover {
+    cursor: pointer;
+    background-color: #e22071;
+    font-weight: bolder;
+}
+.hero {
+    padding-top: 7rem;
+}
+input {
+    width: 33vw;
+}
+.partners-image {
+    height: 450px;
+}
+.box {
+    width: 50vw;
+    position: relative;
+    left: 3rem;
+    top: -8rem;
+    background-color: white;
+    box-shadow: 0px 0px 8px gray;
+}
+.pop {
+    position: relative;
+    top: -4rem;
+    padding: 0.1rem 1rem;
+    background-color: white;
+    border-radius: 0.4rem;
+    width: 10rem;
+    left: 1rem;
+    text-align: center;
+}
+.picture {
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.picture:hover {
+    transform: scale(1.05);
+}
+.cty {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.phone {
+    display: flex;
+    justify-content: space-around;
+}
+p > b {
+    color: red;
+}
+.country {
+    padding: 0rem 1.5rem;
+    color: gray;
+}
+.bob {
+    border-right: 2px solid gray;
+}
+.country:hover {
+    color: black;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+.reserch {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+li {
+    list-style: none;
+}
+@media (max-width:726px) {
+    .pho {
+        display: none;
+    }
+    .logo , .boo {
+        display: none;
+    }
+    .user, .logo-1 {
+        display: block;
+    }
+    .logo-1 {
+        width: 150px;
+    }
+    .phone {
+        top: 10rem;
+    height: 40vh;
+    }
+    .bar {
+        display: none;
+    }
+    .box {
+        width: 80vw;
+    }
+    
+}
